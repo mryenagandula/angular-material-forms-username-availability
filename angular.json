@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-forms": {
+    "angular-material-forms-username-availability": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-material-forms",
+            "outputPath": "dist/angular-material-forms-username-availability",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-material-forms:build"
+            "browserTarget": "angular-material-forms-username-availability:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-material-forms:build:production"
+              "browserTarget": "angular-material-forms-username-availability:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-material-forms:build"
+            "browserTarget": "angular-material-forms-username-availability:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-material-forms:serve"
+            "devServerTarget": "angular-material-forms-username-availability:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-material-forms:serve:production"
+              "devServerTarget": "angular-material-forms-username-availability:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-material-forms"
+  "defaultProject": "angular-material-forms-username-availability"
 }

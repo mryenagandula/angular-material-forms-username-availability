@@ -11,10 +11,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ### Steps: 
 
 - Create angular project with below command.
-	"ng new angular-material-forms"
+	"ng new angular-material-forms-username-availability"
 
 - After successfully creation of angular app, change file directory to project-name.
-	"cd angular-material-forms"
+	"cd angular-material-forms-username-availability"
 
 - Open project in vs code using "code ."
 
